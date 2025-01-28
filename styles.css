@@ -1,0 +1,106 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #444;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+#agregarIngreso {
+    background-color: #28a745;
+}
+
+#agregarIngreso:hover {
+    background-color: #218838;
+}
+
+#agregarGasto {
+    background-color: #dc3545;
+}
+
+#agregarGasto:hover {
+    background-color: #c82333;
+}
+
+#balance {
+    font-size: 28px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background: #007bff;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.ingreso {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.gasto {
+    color: #dc3545;
+    font-weight: bold;
+}
