@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Finanzas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gestión de Ingresos y Gastos</h1>
+
+        <div class="formulario">
+            <input type="number" id="monto" placeholder="Monto" />
+            <input type="text" id="descripcion" placeholder="Descripción" />
+            <button id="agregarIngreso">Agregar Ingreso</button>
+            <button id="agregarGasto">Agregar Gasto</button>
+        </div>
+
+        <h2>Balance: <span id="balance">0</span></h2>
+
+        <h3>Historial de Transacciones</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Monto</th>
+                    <th>Descripción</th>
+                    <th>Tipo</th>
+                </tr>
+            </thead>
+            <tbody id="historial"></tbody>
+        </table>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
